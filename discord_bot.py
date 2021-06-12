@@ -20,6 +20,6 @@ async def on_message(message):
         await message.channel.send("Don't worry! You're beautifull as usually!! I love you:3")
 
     if message.content.startswith('$get me picture'):
-    	await message.channel.send(" ".join(message.content.split(' ')[3:]))
+    	await message.channel.send(GetPicture(" ".join(message.content.split(' ')[3:])))
 
 client.run('ODUzMjU1ODgwODkxMzAxODkw'+'.'+'YMSudg'+'.'+'b3xgg_WdqqirTgORXJRb_iDPvwE')

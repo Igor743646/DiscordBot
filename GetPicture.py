@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import requests
 import random
 from random import randint
-import json
 
 def GetPicture(search):
 	url = 'https://www.google.com/search?q=' + search + '&tbm=isch'

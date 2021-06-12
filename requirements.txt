@@ -2,5 +2,3 @@ discord.py
 aiohttp
 websockets
 chardet
-os
-bs4
